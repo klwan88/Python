@@ -1,4 +1,4 @@
-#This is a number guessing game between 1-10 and user only gets 5 tries.
+#This is a number guessing game between 1-10 and user only gets 5 tries.Made some hanges
 
 def run(): #This function starts the game
     secretnum=random.randint(1, 10)
