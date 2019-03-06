@@ -3,7 +3,7 @@
 def run(): #This function starts the game
     secretnum=random.randint(1, 10)
     for guesses in range (0, 6):
-        print('You now guessed ' + str(guesses) + ' times. What is your guess now?')
+        print('You have ' + str(5-guesses) + ' tries left. What is your guess now?')
         print('# is ' + str(secretnum))
         usernum=input()
         if int(usernum)==(secretnum):
@@ -45,3 +45,6 @@ else:
     
     
 print('The End')
+
+
+
